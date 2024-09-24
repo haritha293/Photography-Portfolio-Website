@@ -1,0 +1,225 @@
+*{
+    padding: 0; margin:0; box-sizing: border-box;
+}
+body{
+scroll-behavior: smooth; overflow-x: hidden;
+}
+header {
+width: 100%;
+height: 90vh;
+background: linear-gradient(rgba(24, 23, 23, 0.8), rgba(23, 18, 18, 0.8)),
+url('cameraholding.jpg');
+ background-size: cover;
+background-attachment: fixed;
+}
+nav{
+    width: 100;
+    height: 80px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+}
+.logo{
+    font-family: sans-serif;
+    font-size: 2.5em;
+}
+.logo span{
+    color: #e74c3c;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.menu a:first-child{
+    color: #e74c3c;
+}
+.menu a:hover{
+    color: #e74c3c;
+}
+.menu a:hover{
+    color: #e74c3c;
+}
+.icon i{
+    font-size: 20px;
+}
+.icon i:hover{
+    color:#e74c3c;
+}
+.icon a{
+    text-decoration: none;
+    background: #e74c3c;
+            
+    color: white;
+    padding: 10px 20px;
+            
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.h-text{
+    color: white;
+    max-width: 700px;
+    position: absolute;
+    top:35%;
+    Left:33%;
+    transform: translate(-50, -50%);
+    text-align: center;
+}
+#camera{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.h-text i{
+    font-family: sans-serif;
+    font-size: 4em;
+    Line-height: 1.5em;
+}
+.h-text input{
+    width: 60%;
+    padding: 20px;
+    border:none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.filter-gallery{
+    text-align: center;
+    padding: 100px;
+}
+.portfolio-menu{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.portfolio-menu ul li{
+    List-style: none;
+    display: inline-block;
+    margin:20px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    text-align: center;
+}
+.portfolio-menu ul li:hover{
+    color: white;
+    background: #e74c3c;
+    border-radius: 8px;
+}
+li.active{
+    color: white;
+    background: #e74c3c;
+    border-radius: 8px;
+}
+.portfolio-item{
+    width: 100%;
+}
+.portfolio-item .item{
+    width: 360px;
+    height: 360px;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.portfolio-item .item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.member{
+
+    width: 100%;
+    
+    padding: 20px 100px; font-family: sans-serif;
+}
+.member-info{
+    text-align: center;
+}
+.member-info h1{
+    font-size: 36px;
+    line-height: 2em;
+}
+.member-info h1 span{
+    color:#e74c3c;
+}
+.member-info h2{
+    font-size: 16px;
+    line-height: 1.5em;
+    cursor: pointer;
+}
+.member-info h2:hover{
+    color:#e74c3c;
+}
+.member-card{
+    text-align: center;
+    padding-top: 50px;
+    width: 50%;
+    margin: auto;
+}
+.member-card img{
+    width:15%;
+    height: 15%;
+    align-items: center;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.member-card p{
+    margin: 20px 0px;
+    Line-height: 2em;
+}
+.member-card h2 {
+    margin: 20px 0px;
+}
+.m-images{
+    width: 100%;
+    display: flex;
+    margin:20px 0px;
+    overflow: hidden;
+}
+.m-images img{
+    width:200px;
+    height: 200px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.m-images img:hover{
+    transform: scale(1.5);
+}
+.footer{
+    margin-top: 80px;
+    background-color: black;
+}
+.foot{
+    padding: 20px 0;
+}
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footlinks h4{
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+    position: relative;
+    letter-spacing: 1px;
+}
+.end{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 12px;
+}
+.end p{
+    font-size: 15px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
