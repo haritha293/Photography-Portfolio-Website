@@ -3,4 +3,4 @@ This project for a photography portfolio website built using HTML and CSS. The w
 Features include:
 1. Responsive design for a seamless experience across devices
 2. Clean and modern layout to emphasize visual content
-3. Simple navigation between portfolio sections
+
